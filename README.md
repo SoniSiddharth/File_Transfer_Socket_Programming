@@ -28,7 +28,7 @@ The idea is to provide a basic understanding of socket programming in python and
 ## TCP usage
 
 1. Analyzing the algorithms
-    - move into the folder [tcp_algorithms]
+    - move into the folder [tcp_algorithms](https://github.com/SoniSiddharth/File_Transfer_Socket_Programming/tree/main/tcp_algorithms)
     - run server using `python3 server.py` and enter the port number
     - run client in another terminal using `python3 client.py`
     - enter the port number of the server
@@ -36,21 +36,21 @@ The idea is to provide a basic understanding of socket programming in python and
     - user can ask for only one file at a time
 
 2. Concurrency - fork
-    - move into the folder [tcp_fork]
+    - move into the folder [tcp_fork](https://github.com/SoniSiddharth/File_Transfer_Socket_Programming/tree/main/tcp_fork)
     - run the server using `python3 fork_server.py`
     - run client in another terminal using `python3 fork_client.py`
     - ask the files in spave separated fashion like `sherlock.txt warpeace.txt`
     - the client side will connect with the server individually for each file (running the all the clients simultaneously)
 
 3. Concurrency - threads
-    - move into the folder [tcp_thread]
+    - move into the folder [tcp_thread](https://github.com/SoniSiddharth/File_Transfer_Socket_Programming/tree/main/tcp_thread)
     - run the server using `python3 thread_server.py`
     - run client in another terminal using `python3 thread_client.py`
     - ask the files in spave separated fashion like `sherlock.txt warpeace.txt`
     - the client side will connect with the server individually for each file (running the all the clients simultaneously)
 
 4. Non persistent TCP
-    - move into the folder [tcp_non_persistent]
+    - move into the folder [tcp_non_persistent](https://github.com/SoniSiddharth/File_Transfer_Socket_Programming/tree/main/tcp_non_persistent)
     - run the server using `python3 nonp_server.py`
     - run client in another terminal using `python3 nonp_client.py`
     - ask the files in spave separated fashion like `sherlock.txt warpeace.txt`
